@@ -184,7 +184,6 @@ class UserData extends Component{
                     return el.id
                 }
             })
-            console.log(foundElement)
             const dataModified = [...this.state.data]
             dataModified.forEach((el,i) => {
                 if(el.id === foundElement.id){
@@ -209,7 +208,6 @@ class UserData extends Component{
                 return el.id
             }
         })
-        console.log(foundElement)
         const dataModified = [...this.state.data]
         dataModified.forEach((el,i) => {
             if(el.id === foundElement.id){
@@ -234,7 +232,6 @@ class UserData extends Component{
                 return el.id
             }
         })
-        console.log(foundElement)
         const dataModified = [...this.state.data]
         dataModified.forEach((el,i) => {
             if(el.id === foundElement.id){
