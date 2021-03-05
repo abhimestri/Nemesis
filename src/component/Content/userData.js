@@ -117,6 +117,7 @@ class UserData extends Component{
             if( el.id === event.id ){
                 return el.id
             }
+            return null
         })
         const dataModified = [...this.state.data]
         dataModified.forEach((el,i) => {
@@ -183,6 +184,7 @@ class UserData extends Component{
                 if( el.id === event.id ){
                     return el.id
                 }
+                return null
             })
             const dataModified = [...this.state.data]
             dataModified.forEach((el,i) => {
@@ -207,6 +209,7 @@ class UserData extends Component{
             if( el.id === event.id ){
                 return el.id
             }
+            return null
         })
         const dataModified = [...this.state.data]
         dataModified.forEach((el,i) => {
@@ -231,6 +234,7 @@ class UserData extends Component{
             if( el.id === event.id ){
                 return el.id
             }
+            return null
         })
         const dataModified = [...this.state.data]
         dataModified.forEach((el,i) => {
