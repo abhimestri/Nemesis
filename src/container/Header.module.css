@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  background-color: #ccc;
+  margin: 0;
+  position: absolute;
+  height: 10vh;
+  top: 0;
+}
+.companyLabel {
+  margin: 1% 0 0 2%;
+  font-size: 2em;
+  color: #000;
+}
